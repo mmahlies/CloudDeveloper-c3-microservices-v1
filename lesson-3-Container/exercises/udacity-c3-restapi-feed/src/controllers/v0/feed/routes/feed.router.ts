@@ -36,6 +36,8 @@ router.get('/', async (req: Request, res: Response) => {
                 item.url = AWS.getGetSignedUrl(item.url);
             }
     });
+    console.log(process.env.udagram_username) ;
+    console.log(`get request`) ;
     res.send(items);
 });
 

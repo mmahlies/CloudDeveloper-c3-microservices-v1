@@ -30,7 +30,7 @@ import { V0MODELS } from './controllers/v0/model.index';
     res.send( "/api/v0/" );
   } );
   
-
+  console.log( `application running` );
   // Start the Server
   app.listen( port, () => {
       console.log( `server running http://localhost:${ port }` );

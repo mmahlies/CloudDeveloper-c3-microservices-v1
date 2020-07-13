@@ -1,13 +1,13 @@
 export const config = {
   "dev": {
-    "username": process.env.POSTGRESS_USERNAME,
-    "password": process.env.POSTGRESS_PASSWORD,
-    "database": process.env.POSTGRESS_DB,
-    "host": process.env.POSTGRESS_HOST,
+    "username": process.env.udagram_username,
+    "password": process.env.udagram_password,
+    "database": process.env.udagram_database,
+    "host": process.env.udagram_host,
     "dialect": "postgres",
-    "aws_reigion": process.env.AWS_REGION,
-    "aws_profile": process.env.AWS_PROFILE,
-    "aws_media_bucket": process.env.AWS_BUCKET
+    "aws_reigion": "eu-central-1", 
+    "aws_profile": "DEPLOYED",
+    "aws_media_bucket": "udagram-talaat-dev"
   },
   "prod": {
     "username": "",
