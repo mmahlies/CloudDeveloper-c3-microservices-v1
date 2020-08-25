@@ -28,7 +28,7 @@ git branch
 Navigate to the `/lesson-1-Best-Practices/exercises/` directory.
 
 
-#### Task 2 - Set the User-specific environment variables
+######## Task 2 - Set the User-specific environment variables
 For this server to work you'll need to access the AWS RDS database and S3 bucket that you set up in the Full  Stack App on AWS Course.  Make sure that the RDS instance is running and that you have defined all of the environment variables in your `./profile` file that is called in the `config.ts`:
 ```bash
 POSTGRESS_USERNAME
